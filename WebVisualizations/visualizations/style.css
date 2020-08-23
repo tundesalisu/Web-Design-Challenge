@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(235, 240, 234, 0.952);
+}
+
+
+
+#navMainTitle{
+   padding: 15px;
+   font-size: 150%;
+   font-weight: 800;
+   margin-left: 300px;
+}
