@@ -1,15 +1,54 @@
 *{
     box-sizing: border-box;
+    
 }
 body{
-    background-color: rgba(235, 240, 234, 0.952);
+    background-color:gray;
+    float: none;
+    min-width: 800px;
 }
 
 
+#mainNavBar{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
 
-#navMainTitle{
+/* Main top header title  */
+a#navMainTitle{
    padding: 15px;
    font-size: 150%;
    font-weight: 800;
-   margin-left: 300px;
+   margin-left: 220px;
+   background-color: rgba(9, 209, 166, 0.924);
+}
+/* Landing page  */
+#smallImg{
+    width: 120px;
+    height: 120px;
+}
+
+.landingMainPage{
+    margin-top: 50px;
+}
+
+.landingSmallMainPage{
+    margin-bottom: 10px;
+}
+
+.smallImgPara{
+    float: left;
+    margin: 20px;
+}
+
+/* visualize page */
+
+.smallImgParaVisual{
+    margin: 10px;
+}
+#smallImgVisual{
+    width: 300px;
+    height: 250px;
+    margin-left: 200px;
+        
 }
